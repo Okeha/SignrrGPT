@@ -64,7 +64,6 @@ flowchart TB
     end
     
     C --> D
-    F --> G
 ```
 
 
