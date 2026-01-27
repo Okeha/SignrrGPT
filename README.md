@@ -53,7 +53,7 @@ True two-way communication. No typing required.
 ```mermaid
 flowchart TB
     subgraph Frontend["🎨 FRONTEND"]
-        A["📹 Camera Input"] --> B["✋ MediaPipe Tracking"]
+        A["📹 Camera Input"] --> B["✋ User Signs"]
         B --> C["📡 Send to API"]
         G["📝 Display Text"] --> H["🧍 3D Avatar Signs Back"]
     end
