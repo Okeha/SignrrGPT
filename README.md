@@ -48,12 +48,10 @@ True two-way communication. No typing required.
 ---
 
 ## 🏗️ Architecture
-
-## 🏗️ Architecture
 ```mermaid
 flowchart TB
     subgraph Frontend["🎨 FRONTEND"]
-        A["📹 Camera Input"] --> B["✋ User Signs"]
+        A["📹 Camera Input"] --> B["✋ MediaPipe Tracking"]
         B --> C["📡 Send to API"]
         G["📝 Display Text"] --> H["🧍 3D Avatar Signs Back"]
     end
@@ -64,6 +62,7 @@ flowchart TB
     end
     
     C --> D
+    F --> G
 ```
 
 
