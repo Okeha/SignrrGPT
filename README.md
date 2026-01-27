@@ -75,7 +75,7 @@ flowchart TB
 | Feature | Status |
 |---------|--------|
 | Hand tracking (MediaPipe) | ✅ Working |
-| Sign recognition (VideoMAE) | 🟡 In Progress |
+| Sign recognition (VideoMAE) |  ✅ Working |
 | Text-to-Sign avatar | 🟡 In Progress |
 | Real-time translation | 🔜 Coming Soon |
 | Multi-language support (ASL, BSL) | 🔜 Planned |
