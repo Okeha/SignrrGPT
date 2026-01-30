@@ -42,8 +42,8 @@ True two-way communication. No typing required.
 
 | Repo | Stack | Description |
 |------|-------|-------------|
-| [**Frontend**](https://github.com/Okeha/sign-language-detector) | React, TypeScript, ThreeJS | Real-time interface + 3D signing avatar |
-| [**Backend**](https://github.com/Okeha/sign-language-detector-frontend) | Python, FastAPI, VideoMAE | AI recognition + animation generation |
+| [**Frontend**](https://github.com/Okeha/sign-language-detector-frontend) | React, TypeScript, ThreeJS | Real-time interface + 3D signing avatar |
+| [**Backend**](https://github.com/Okeha/sign-language-translator-backend) | Python, FastAPI, VideoMAE | AI recognition + animation generation |
 
 ---
 
