@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🤟 Signrr GPT  (Sign Language GPT)
+# 🤟 Signrr GPT (Sign Language GPT)
 
 ### Technology should meet people where they are — not the other way round.
 
-*It's embarrassing this doesn't exist yet. So I'm building it.*
+_It's embarrassing this doesn't exist yet. So I'm building it._
 
 [![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)]()
 [![Frontend](https://img.shields.io/badge/Frontend-React%20%2B%20ThreeJS-61DAFB?style=for-the-badge&logo=react)]()
@@ -28,55 +28,47 @@ We can't build humanity-changing technology without involving everybody in the r
 
 **Sign Language GPT** is a real-time, bi-directional sign language interpreter:
 
-| Direction | What It Does |
-|-----------|--------------|
-| 🤟 → 📝 | Translates sign language into text using AI |
-| 📝 → 🤟 | A 3D avatar signs back to you |
+| Direction | What It Does                                |
+| --------- | ------------------------------------------- |
+| 🤟 → 📝   | Translates sign language into text using AI |
+| 📝 → 🤟   | A 3D avatar signs back to you               |
 
 True two-way communication. No typing required.
 
 ---
 
-
 ## 📦 Repositories
 
-| Repo | Stack | Description |
-|------|-------|-------------|
+| Repo                                                                     | Stack                      | Description                             |
+| ------------------------------------------------------------------------ | -------------------------- | --------------------------------------- |
 | [**Frontend**](https://github.com/Okeha/sign-language-detector-frontend) | React, TypeScript, ThreeJS | Real-time interface + 3D signing avatar |
-| [**Backend**](https://github.com/Okeha/sign-language-translator-backend) | Python, FastAPI, VideoMAE | AI recognition + animation generation |
+| [**Backend**](https://github.com/Okeha/sign-language-translator-backend) | Python, FastAPI, VideoMAE  | AI recognition + animation generation   |
 
 ---
 
 ## 🏗️ Architecture
-```mermaid
-flowchart TB
-    subgraph Frontend["🎨 FRONTEND"]
-        A["📹 Camera Input"] --> B["✋ MediaPipe Tracking"]
-        B --> C["📡 Send to API"]
-        G["📝 Display Text"] --> H["🧍 3D Avatar Signs Back"]
-    end
-    
-    subgraph Backend["🧠 BACKEND"]
-        D["🎬 VideoMAE Encoder"] --> E["🤖 Sign Classification"]
-        E --> F["📝 Text Output"]
-    end
-    
-    C --> D
-    F --> G
-```
 
+Below are visual diagrams showing the system architecture and data flow. Click or open the images in the `images/` folder for a larger view.
+
+<p align="center">
+    <img src="images/FullSystemArchitecture.jpeg" alt="Full system architecture" style="max-width:100%; height:auto;" />
+</p>
+
+<p align="center">
+    <img src="images/DataFlowDiagram.jpeg" alt="Data flow diagram" style="max-width:100%; height:auto;" />
+</p>
 
 ---
 
 ## 🚀 Current Status
 
-| Feature | Status |
-|---------|--------|
-| Hand tracking (MediaPipe) | ✅ Working |
-| Sign recognition (VideoMAE) |  ✅ Working |
-| Text-to-Sign avatar | 🟡 In Progress |
-| Real-time translation | 🔜 Coming Soon |
-| Multi-language support (ASL, BSL) | 🔜 Planned |
+| Feature                           | Status         |
+| --------------------------------- | -------------- |
+| Hand tracking (MediaPipe)         | ✅ Working     |
+| Sign recognition (VideoMAE)       | ✅ Working     |
+| Text-to-Sign avatar               | 🟡 In Progress |
+| Real-time translation             | 🔜 Coming Soon |
+| Multi-language support (ASL, BSL) | 🔜 Planned     |
 
 ---
 
@@ -105,6 +97,6 @@ This project is in active development. If you're passionate about accessibility,
 
 **Built by [Anthony Okeh](https://github.com/Okeha)**
 
-*Because everyone deserves to be heard.* 🤟
+_Because everyone deserves to be heard._ 🤟
 
 </div>
