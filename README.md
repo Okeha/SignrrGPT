@@ -16,7 +16,7 @@ _It's embarrassing this doesn't exist yet. So I'm building it._
 
 ## 🌍 The Problem
 
-700+ million people worldwide are deaf or hard of hearing. Yet most technology still expects them to adapt — to read, to type, to lip-read.
+70+ million people worldwide are deaf or hard of hearing. Yet most technology still expects them to adapt — to read, to type, to lip-read.
 
 **That's backwards.**
 
