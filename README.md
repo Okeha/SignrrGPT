@@ -66,8 +66,8 @@ Below are visual diagrams showing the system architecture and data flow. Click o
 | --------------------------------- | -------------- |
 | Hand tracking (MediaPipe)         | ✅ Working     |
 | Sign recognition (VideoMAE)       | ✅ Working     |
-| Text-to-Sign avatar               | 🟡 In Progress |
-| Real-time translation             | 🔜 Coming Soon |
+| Text-to-Sign avatar               | ✅ Working     |
+| Real-time translation             | ✅ Working     |
 | Multi-language support (ASL, BSL) | 🔜 Planned     |
 
 ---
