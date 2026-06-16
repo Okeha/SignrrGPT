@@ -1,0 +1,69 @@
+{
+    "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+    "version": "v1.1.0",
+    "entity": {
+        "type": "individual",
+        "role": "owner",
+        "name": "Anthony Okeh",
+        "email": "okehanthony1234@gmail.com",
+        "phone": "",
+        "description": "I'm an AI engineer based in London, working with computer vision and large language models. I build open-source tools that make AI more accessible to people who are usually left out of it. SignrrGPT is my main project: a real-time, two-way sign language interpreter that lets deaf and hard-of-hearing people use AI in their own language instead of being forced to read and type. I built it solo, on my own time, because I couldn't accept that the people who could benefit most from AI were being left behind by it.",
+        "webpageUrl": {
+            "url": "https://github.com/Okeha",
+            "wellKnown": ""
+        }
+    },
+    "projects": [{
+        "guid": "signrrgpt",
+        "name": "SignrrGPT",
+        "description": "SignrrGPT is an open-source, real-time, bi-directional sign language interpreter that connects deaf and hard-of-hearing people directly to AI. A camera reads a person's signing using a fine-tuned VideoMAE vision model, and a large language model then takes the top predictions for each sign and works out the most coherent meaning as natural language. A 3D avatar, animated from a MediaPipe motion-capture library, signs the response back, so users never have to read or type. Unlike most tools, which only read the hands, SignrrGPT also captures facial expression and body movement, where much of sign language's meaning actually lives. Over 1.5 billion people live with hearing loss, and many communicate through sign language, a full language with its own grammar. As the world moves to AI for learning and work, signers risk being excluded again. SignrrGPT exists to take that barrier down. It is a working prototype today; funding goes toward improving recognition accuracy and expanding vocabulary so deaf users can genuinely rely on it.",
+        "webpageUrl": {
+            "url": "https://github.com/Okeha/SignrrGPT",
+            "wellKnown": ""
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/Okeha/SignrrGPT",
+            "wellKnown": ""
+        },
+        "licenses": ["spdx:MIT"],
+        "tags": ["artificial-intelligence", "machine-learning", "computer-vision", "accessibility", "sign-language-recognition", "deep-learning", "pytorch", "nlp", "assistive-technology"]
+    }],
+    "funding": {
+        "channels": [
+            {
+                "guid": "github-sponsors",
+                "type": "payment-provider",
+                "address": "https://github.com/sponsors/Okeha",
+                "description": "Support SignrrGPT via GitHub Sponsors. One-time or recurring contributions accepted."
+            },
+            {
+                "guid": "mybank",
+                "type": "bank",
+                "address": "",
+                "description": "Direct bank transfer available for grants. Please email me for details."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "compute-and-data",
+                "status": "active",
+                "name": "Model training and data",
+                "description": "Covers cloud GPU time to retrain the sign recognition model and the cost of collecting and labeling more sign language video data. This is the single biggest thing standing between a rough prototype and a tool deaf users can rely on day to day.",
+                "amount": 5000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "channels": ["github-sponsors", "mybank"]
+            },
+            {
+                "guid": "goodwill",
+                "status": "active",
+                "name": "Goodwill plan",
+                "description": "Contribute any amount to support continued open-source development of SignrrGPT.",
+                "amount": 0,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": ["github-sponsors"]
+            }
+        ]
+    }
+}
